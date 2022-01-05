@@ -1,0 +1,17 @@
+{
+  "name": "tailwindcss-starter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tailwindcss -i src/app.css -o dist/tailwind.css",
+    "watch": "tailwindcss -i src/app.css -o dist/tailwind.css --watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^10.4.1",
+    "postcss": "^8.4.5",
+    "tailwindcss": "^2.2.0"
+  }
+}
